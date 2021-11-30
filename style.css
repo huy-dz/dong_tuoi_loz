@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(./astronomy-1867616_960_720.jpg);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.info {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.container .name {
+    font-size: 50px;
+    color: #fff;
+    padding: 50px;  
+    font-weight: bolder;
+}
+
+.container .msv {
+    font-size: 40px;
+    color: #fff;
+    padding: 20px;
+}
+
+.container .ngay_sinh {
+    font-size: 40px;
+    color: #fff;
+    padding: 20px;
+}
